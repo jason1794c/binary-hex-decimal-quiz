@@ -75,7 +75,7 @@ function DecimalToHex() {
                 <button style={{ marginRight: "10px" }} onClick={checkAns}>
                     Check Answer
                 </button>
-                <button onClick={giveUp}>Give Up</button>
+                <button onClick={giveUp}>Show Answer</button>
             </div>
         </div>
     );

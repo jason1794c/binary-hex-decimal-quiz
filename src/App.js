@@ -23,11 +23,11 @@ function App() {
           <div>
               <p>
                   Take this quiz to test yourself on conversion between decimal,
-                  binary, and hexadecimal representations.
+                  binary, and hexadecimal numbers.
               </p>
               <p>Type your answer in the blank and click on "Check Answer".</p>
               <p>
-                  Stumped? Click on "Give Up". To test yourself again, click on
+                  Click on "Show Answer" button to see the answer. To test yourself again, click on
                   the "Reset Quiz" button.
               </p>
           </div>
