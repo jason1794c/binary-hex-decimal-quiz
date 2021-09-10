@@ -51,7 +51,7 @@ function BinaryToHex() {
                 }
 
                 hexStr = hexConversion[fourBit.join("")] + hexStr;
-
+             
                 // Clear the fourBit array
                 fourBit = [];
 
@@ -72,17 +72,13 @@ function BinaryToHex() {
             hexStr = hexStr.slice(1)
         }
 
-        setHexAns(parseInt(hexStr));
+        setHexAns(hexStr);
     };
 
     const checkAns = () => {
-        try {
-            parseInt(userGuess) === hexAns
-                ? alert("Correct!")
-                : alert("Wrong. Please try again.");
-        } catch (err) {
-            alert("Wrong. Please try again.");
-        }
+        userGuess === hexAns
+            ? alert("Correct!")
+            : alert("Wrong. Please try again.");
     };
 
     const giveUp = () => {
