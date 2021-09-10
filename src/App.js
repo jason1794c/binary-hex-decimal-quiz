@@ -14,7 +14,7 @@ function App() {
           style={{
               display: "flex",
               flexDirection: "column",
-              alignItems: "center",
+              alignItems: "center"
           }}
       >
           <header>
@@ -28,7 +28,7 @@ function App() {
               <p>Type your answer in the blank and click on "Check Answer".</p>
               <p>
                   Stumped? Click on "Give Up". To test yourself again, click on
-                  the "New Quiz" button.
+                  the "Reset Quiz" button.
               </p>
           </div>
           <BinaryAndDecimal />
