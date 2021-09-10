@@ -25,7 +25,7 @@ function DecimalToHex() {
 
     useEffect(() => {
         decimalToHexAns(decNum);
-    }, []);
+    }, [decNum]);
 
     const decimalToHexAns = (hex) => {
         const hexArray = []; // Create empty array to store hex digits

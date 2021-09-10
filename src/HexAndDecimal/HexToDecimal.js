@@ -15,7 +15,6 @@ function HexToDecimal() {
         let j = 0;
 
         for (let i = hex.length - 1; i >= 0; i--) {
-            console.log(hex[i])
             switch (hex[i]) {
                 case "a":
                     sum += 10 * 16 ** j;
