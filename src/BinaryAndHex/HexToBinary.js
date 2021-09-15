@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 export const randomHex = () => {
     let tempHex = "";
-    const hexLength = Math.floor(Math.random() * 6 + 1);
+    const hexLength = Math.floor(Math.random() * 3 + 1);
     const hexDigits = [
         "0",
         "1",
