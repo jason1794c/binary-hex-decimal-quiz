@@ -48,7 +48,7 @@ function App() {
                 style={{
                   position: "fixed",
                   bottom: 0,
-                  text-align: "center"                  
+                  textAlign: "center"                  
                 }}> 
                 <p>&copy; 2022 Jason Chui</p>
           </footer>
