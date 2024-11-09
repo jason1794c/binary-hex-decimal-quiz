@@ -44,7 +44,14 @@ function App() {
           >
               <strong>Reset Quiz</strong>
           </button>
-          <footer> &copy Jason Chui 2022 </footer>
+          <footer
+                style={{
+                  position: "fixed",
+                  bottom: 0,
+                  text-align: "center"                  
+                }}> 
+                <p>&copy; 2022 Jason Chui</p>
+          </footer>
       </div>
   );
 }
