@@ -50,7 +50,7 @@ function App() {
                   bottom: 0,
                   textAlign: "center"                  
                 }}> 
-                <p>&copy; 2022 Jason Chui</p>
+                <p>&copy; 2021 Jason Chui</p>
           </footer>
       </div>
   );
