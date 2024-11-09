@@ -44,6 +44,7 @@ function App() {
           >
               <strong>Reset Quiz</strong>
           </button>
+          <footer> &copy Jason Chui 2022 </footer>
       </div>
   );
 }
